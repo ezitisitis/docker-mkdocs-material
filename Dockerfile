@@ -18,7 +18,7 @@ RUN \
     pip install mkdocs-material && \
     rm -rf /tmp/* /var/tmp/* /var/cache/apk/* /var/cache/distfiles/*
 
-COPY container-files /
+COPY container-files/scripts /
 
 WORKDIR /workdir
 
